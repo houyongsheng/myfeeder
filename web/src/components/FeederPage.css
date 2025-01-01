@@ -1,0 +1,52 @@
+/* 导航项的hover效果 */
+.nav-item-hover:hover {
+  background-color: rgba(0, 0, 0, 0.04) !important;
+}
+
+/* 当导航项处于选中状态时的hover效果 */
+.nav-item-hover[style*="background-color: rgb(230, 244, 255)"]:hover {
+  background-color: #bae0ff !important;
+}
+
+/* 文章列表项的基础样式 */
+.article-item-hover {
+  /* border: 1px solid transparent; */
+  position: relative;
+}
+
+/* 文章列表项的hover效果 */
+.article-item-hover:hover {
+  background-color: #fafafa !important;
+  border-color: #f0f0f0 !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* 选中状态的文章列表项hover效果 */
+.article-item-hover[style*="background-color: rgb(230, 244, 255)"]:hover {
+  background-color: #bae0ff !important;
+  border-color: #91caff !important;
+}
+
+/* 文章标题的hover效果 */
+.article-item-hover .ant-list-item-meta-title a {
+  transition: color 0.3s;
+}
+
+/* 按钮的hover效果 */
+button.nav-item-hover.ant-btn-dashed:hover {
+  color: #1890ff !important;
+  border-color: #1890ff !important;
+  background-color: #e6f4ff !important;
+}
+
+.ant-layout-sider {
+  padding-top: 27px !important;
+}
+
+.ant-list {
+  margin-top: -10px;
+}
+
+.ant-list-item-meta-content {
+  padding-top: 10px;
+}
